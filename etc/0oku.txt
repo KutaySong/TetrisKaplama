@@ -1,0 +1,38 @@
+-----------------------------------------------------------
+-----------------------------------------------------------
+AMAÇ ::
+--------
+Google Code Jam 2018'de Two_Tiles problemini çözebilen
+3 kişi vardı. Bu sorudan esinlenerek görsel bir Backtracking
+yazılımı amaçladım. 2 farklı 3x3 blokla aynı deseni
+oluşturmaya çabalıyor.
+
+KULLANIM ::
+-----------
+FareTekeri gösterim hızını artırıp yavaşlatır
+3x3 bloklara tıklamak aranacak şekli değiştirir
+Başka tarafa tıklamak aramayı pause eder
+-----------------------------------------------------------
+-----------------------------------------------------------
+VERSİYONLAR ::
+--------------
+
+
+  29  Fare Etkileşimi iyileştirildi.
+  28  OBEB'e göre ayarlandı.
+  27  çalıştı
+  26  02bul.js Refactor edilebildi. debug edildi
+  25  3fonk.js Refactor edilebildi.
+  24  aramaDerinliği parametresi eklendi fareTekeri++/--
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+açıklama: BACKTRACKING ALGORİTMASI
+(0,0,0)'dan başlayıp blok1'in ilk türevini yerleştir, 
+yerleştirebilirsen (0,0,1)'deki türevleri dene , 
+(0,0,1) olmazsa (0,0,0)'ı kaldır ve başka dene
+(0,0,1) olursa (0,1,0)'a geç
+(0,0,0) olmazsa , hiçbiri olmazsa
+(0,1,0)'a geç
+-----------------------------------------------------------
+-----------------------------------------------------------
